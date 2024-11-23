@@ -2,11 +2,9 @@
 name: Spring Boot with Github Actions
 on:
   push:
-    branches:
-      - main
+    branches: [ "main" ]
   pull_request:
-    branches:
-      - main
+    branches: [ "main" ]
 jobs:
   build-test:
     name: Running spring boot application with github actions
