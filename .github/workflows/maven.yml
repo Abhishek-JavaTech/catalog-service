@@ -28,4 +28,5 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
+      working-directory: ./Catalog-Service # Update path based on actual structure
       run: mvn clean install
