@@ -32,8 +32,8 @@ jobs:
 
       - name: Build with Maven
         run: mvn clean install
-        working-directory: catalog-service # Set the correct path to your POM
+        working-directory: ./Catalog-Service
 
       - name: Run Tests
         run: mvn test
-        working-directory: catalog-service # Set the correct path to your POM
+        working-directory: ./Catalog-Service
