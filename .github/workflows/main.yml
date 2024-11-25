@@ -11,8 +11,8 @@ on:
       
 env:
     registry: ghcr.io
-    username: Abhishek-JavaTech
-    password: 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
+    username: https://github.com/Abhishek-JavaTech
+    password: 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
     repository: catalog-service
 
 # Define the workflow's jobs
