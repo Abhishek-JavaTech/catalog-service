@@ -10,9 +10,9 @@ on:
       - main
       
 env:
-    registry: ghcr.io
-    username: https://github.com/Abhishek-JavaTech
-    password: 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
+    registry: https://ghcr.io/
+    username: rangari.javatech@gmail.com
+    password: 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
     repository: catalog-service
 
 # Define the workflow's jobs
@@ -46,7 +46,6 @@ jobs:
       # Step 4: Build and run tests
       - name: Build with Maven and run tests
         run: |
-            mvn test
             mvn clean install
 
       # Step 5: login to ghcr using docker
