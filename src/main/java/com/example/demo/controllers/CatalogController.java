@@ -27,7 +27,7 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class CatalogController {
 
-	@Value("${message.text}")
+	@Value("${message.text:default}")
 	private String messageText;
 	private final CatalogService service;
 
