@@ -17,6 +17,13 @@ env:
 
 # Define the workflow's jobs
 jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Docker
+        uses: docker/setup-buildx-action@v2
+      - name: Run Tests
+        run: mvn test
   build-and-test:
     # The environment where the job will run
     runs-on: ubuntu-latest
