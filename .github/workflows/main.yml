@@ -12,7 +12,7 @@ on:
 env:
     registry: https://ghcr.io/
     username: rangari.javatech@gmail.com
-    password: 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
+    password: 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
     repository: catalog-service
 
 # Define the workflow's jobs
